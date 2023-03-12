@@ -1,24 +1,26 @@
-class Weapon {
-
+public class Weapon {
 String name;
 int damage;
 String rarity;
 
-public void Weapons(){
-    System.out.println(name);
+public void Weaponname(){
+    System.out.println("Your Weapon is " + name);}
 
-    public void adddamage (int additionalDamage){
-        int newDamage = this.damage + additionalDamage;
+public void Weapondamage(){
+    System.out.println("Damage: " + damage);}
 
-        System.out.println("Damage increased from " + damage + " to " + newDamage);
+public void Weaponrarity(){
+    System.out.println("Rarity: " + rarity);}
 
-        this.damage = newDamage;
-    }
-    public String showNameandRarity(){
-        return this.name + "" + this.rarity;
+public void Adddamage(int plusdamage){
+    int incdamage = damage + plusdamage;
+    System.out.println("Damage +" + incdamage);
 
-    }
+    this.damage = incdamage;}
+
+    public String shownameRarity(){
+        return this.name + " " + this.rarity;}
+
 
 }
-
-}
+    
