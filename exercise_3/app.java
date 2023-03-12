@@ -41,15 +41,36 @@ public class App {
 
         Weapon Sword = new Weapon();
 
-        Sword.name = "Long Sword";
-        Sword.damage = 15;
-        Sword.rarity = "common";
-        Sword.Weapons();
-        Sword.adddamage();
-        System.out.print(Sword.showNameandRarity());
-        
+        Sword.name = "Excalibur";
+        Sword.damage = 9000;
+        Sword.rarity = "Legendary";
+        Sword.Weaponname();
+        Sword.Weapondamage();
+        Sword.Weaponrarity();
+        Sword.Adddamage(378);
+        System.out.println(Sword.shownameRarity());
 
+        Weapon Bow = new Weapon();
 
+        Bow.name = "Arch Angel";
+        Bow.damage = 3000;
+        Bow.rarity = "Epic";
+        Bow.Weaponname();
+        Bow.Weapondamage();
+        Bow.Weaponrarity();
+        Bow.Adddamage(487);
+        System.out.print(Bow.shownameRarity());
+
+        Weapon Spear = new Weapon();
+
+        Spear.name = "Amenonuhoko";
+        Spear.damage = 7000;
+        Spear.rarity = "Epic";
+        Spear.Weaponname();
+        Spear.Weapondamage();
+        Spear.Weaponrarity();
+        Spear.Adddamage(735);
+        System.out.print(Spear.shownameRarity());
     }
 }
-    
+
